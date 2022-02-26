@@ -1,0 +1,19 @@
+.mini-image{
+    width: 50px;
+    height: 45px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+li {
+    color: white;
+    padding: 16px;
+  }

@@ -1,1 +1,23 @@
-<p>favorite-sidebar works!</p>
+<div class="container">
+    <h2>Favoritos</h2>
+    <div class="divider"></div>
+    <div class="favoritos">
+        <ul class="favorites-list">
+            <li *ngFor="let favorite of listaFavorites">
+                <div class="card">
+                    <img class="mini-image" [src]="favorite.data.img " alt="">
+                </div>
+                <div>
+                    <div class="title-inside">
+                        <h5 class="mini-title">
+                            Title: {{ favorite.data.title }}
+                        </h5>
+                        <h6 class="mini-title">
+                            Subtitle: {{ favorite.data.subtitle }}
+                        </h6>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

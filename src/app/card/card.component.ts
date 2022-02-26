@@ -24,7 +24,7 @@ export class CardComponent implements OnInit {
     this.favorites.disparadorDeFavoritos.emit({
       data:this.dataEntrante
     })
-    console.log(this.dataEntrante);
+    //console.log(this.dataEntrante);
 
   }
 
