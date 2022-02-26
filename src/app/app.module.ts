@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { CardComponent } from './card/card.component';
+import { FavoriteSidebarComponent } from './favorite-sidebar/favorite-sidebar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    CardComponent
+    CardComponent,
+    FavoriteSidebarComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,10 @@
+.favorite{
+    background-color: #008080;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight: bold;
+    color: #fff;
+    padding: 1rem;
+}
