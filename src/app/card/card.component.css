@@ -11,3 +11,11 @@
     width: 400px;
     height: 280px;
 }
+.title{
+    font-size: 22px;
+    font-style: initial;
+}
+.subtitle{
+    font-size: 19px;
+    font-style: oblique;
+}

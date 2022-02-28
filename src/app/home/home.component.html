@@ -1,0 +1,16 @@
+<!-- Header Component -->
+<div class="header">
+
+  
+    <app-header></app-header>
+  </div>
+  <!--Card  Component -->
+  <div class="grid">
+    <app-card [routerLink]="['/', 'post', detalleLibro.id]" [dataEntrante]="detalleLibro" *ngFor="let detalleLibro of caratulaLibros">
+      <div class="title">{{ detalleLibro.title }}</div>
+      <div class="title">{{ detalleLibro.subtitle }}</div>
+    </app-card>
+  </div>
+  <!--SideBar  Component -->
+  <app-favorite-sidebar></app-favorite-sidebar>
+  

@@ -25,6 +25,13 @@ ul {
     align-content: flex-end;
 }
 li {
-    color: white;
-    padding: 16px;
-  }
+  color: white;
+  padding: 16px;
+}
+span{
+  color: #008080;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
