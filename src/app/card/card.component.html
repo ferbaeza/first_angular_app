@@ -1,5 +1,7 @@
 <div class="card">
-    <img class="image" [src]= "dataEntrante?.img"alt="">
+    <div class="card-image" >
+        <img class="image" [routerLink]="['/', 'post', dataEntrante?.id]" [src]= "dataEntrante?.img"alt="">
+    </div>
     <div class="wrapper-text">
         <div class="title">{{ dataEntrante.title }}</div>
         <div class="subtitle">{{ dataEntrante.subtitle }}</div>

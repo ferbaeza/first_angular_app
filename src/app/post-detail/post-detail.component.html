@@ -1,1 +1,25 @@
-<p>post-detail works!</p>
+<div class="header">
+    <app-header></app-header>
+</div>
+  
+
+
+
+<div class="container">
+    <div class="card">
+        <img class="image" [src]= "" alt="">
+        <div class="wrapper-text">
+            <div class="title"></div>
+            <div class="subtitle"></div>
+        </div>
+        
+        
+    </div>
+    <button (click)="showForm()">Review</button>
+    <p id="message">Necesitas estar loguedao para escribir una review</p>
+    <form id="formReview" style="display: none;">
+        <input type="text" placeholder="Nombre">
+    </form>
+
+
+</div>

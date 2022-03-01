@@ -1,12 +1,14 @@
 <!-- Header Component -->
 <div class="header">
-
-  
-    <app-header></app-header>
-  </div>
+  <app-header></app-header>
+</div>
   <!--Card  Component -->
   <div class="grid">
-    <app-card [routerLink]="['/', 'post', detalleLibro.id]" [dataEntrante]="detalleLibro" *ngFor="let detalleLibro of caratulaLibros">
+    <app-card  [dataEntrante]="detalleLibro" *ngFor="let detalleLibro of caratulaLibros">
+      <div class="card-image" >
+        <img class="image" [src]= "detalleLibro?.img"alt="">
+    </div>
+
       <div class="title">{{ detalleLibro.title }}</div>
       <div class="title">{{ detalleLibro.subtitle }}</div>
     </app-card>
