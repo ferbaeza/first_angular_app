@@ -9,16 +9,24 @@
     <div class="card">
         <img class="image" [src]= "" alt="">
         <div class="wrapper-text">
-            <div class="title"></div>
-            <div class="subtitle"></div>
+            <div class="title"><h2>Aqui debe de ir el Titulo</h2></div>
+            <div class="subtitle"><h5>Subtitulo</h5></div>
+            <div class="description">Descripcion detallada del objeto</div>
         </div>
         
         
     </div>
-    <button (click)="showForm()">Review</button>
-    <p id="message">Necesitas estar loguedao para escribir una review</p>
-    <form id="formReview" style="display: none;">
-        <input type="text" placeholder="Nombre">
+    <button class="btn" (click)="showForm()">Escribe tu opinion</button>
+
+    <p id="message">Necesitas estar loguedao para escribir una review <br>
+        <a routerLink="" routerLinkActive="active"><button class="btn-home">Home</button></a>
+    </p>
+    <form [formGroup]="form" (submit)="sendComment()" id="formReview" style="display: none;">
+        <div class="form-group">
+            <input type="text" placeholder="id" value="" hidden>
+            <textarea formControlName="newComment" class="text-comment" id="comments" cols="72" rows="10"></textarea><br>
+            <button class="btn-btn">Guardar comentario</button>
+        </div>
     </form>
 
 

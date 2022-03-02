@@ -28,6 +28,18 @@
         "title":"Titulo 5", 
         "subtitle":"Info card n-5", 
         "img": "https://picsum.photos/536/355"
+    },
+    {
+        "id": 6,
+        "title":"Titulo 6", 
+        "subtitle":"Info card n-6", 
+        "img": "https://picsum.photos/536/365"
+    },
+    {
+        "id": 7,
+        "title":"Titulo 7", 
+        "subtitle":"Info card n-7", 
+        "img": "https://picsum.photos/536/375"
     }
 
     ]
